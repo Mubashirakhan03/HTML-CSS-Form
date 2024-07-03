@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <div class="head"><h2>Student Registration Form</h2></div>
+    <div class="line"></div>
+    <div class="form">
+        <form action="/action">
+            <label for="name">First Name:</label>
+            <br>
+            <input type="text" placeholder="enter first name" id="name" class="length">
+            <br><br>
+            <label for="lname">Last Name:</label>
+            <br>
+            <input type="text" placeholder="enter last name" id="lname" class="length">
+            <br><br>
+            <label>Courses:</label>
+            <select name="courses" id="course">
+                <option value="course">Courses</option>
+                <option value="MAths">Math</option>
+                <option value="English">English</option>
+                <option value="Computer">Computer</option>
+                <option value="Biology">Biology</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+            </select>
+            <br><br>
+            <label>Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">other</label>
+            <br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="" id="dob">
+            <br><br>
+            <label for="phone">Phone:</label>
+            <br>
+            <input type="text" id="phone" placeholder="enter phone number" class="length">
+            <br><br>
+            <label for="add">Current Address:</label>
+            <br>
+            <textarea name="" id="add" cols="75" rows="5"  placeholder="enter permanent address"></textarea>
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="enter email" class="length">
+            <br><br>
+            <label for="pass">Password:</label>
+            <br>
+            <input type="Password" id="pass" placeholder="enter password" class="length">
+            <br><br>
+            <label for="pass" class="pass">Confirm Password:</label>
+            <br>
+            <input type="password" id="cPass" placeholder="confirm password" class="length">
+            <br><br>
+            <label >Upload NIC:</label>
+            <br>
+            <input type="file" name="doc" id="doc">
+            <br><br>
+            <div class="last">
+                <input type="reset" value="Clear" class="btn btn1">
+                <input type="submit" value="Submit" class="btn btn2">
+            </div>
+        </form> 
+    </div>
+</body>
+</html>
